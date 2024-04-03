@@ -16,13 +16,5 @@
     "baseUrl": ".",
     "paths": {}
   },
-  // https://angular.io/guide/angular-compiler-options#angularcompileroptions-strictinjectionparameters
-
-  /*
-Like the TypeScript compiler, the Angular AOT compiler also supports extends in the angularCompilerOptions section of the TypeScript configuration file. The extends property is at the top level, parallel to compilerOptions and angularCompilerOptions.
-
-A TypeScript configuration can inherit settings from another file using the extends property. The configuration options from the base file are loaded first, then overridden by those in the inheriting configuration file.
-  */
-
   "exclude": ["node_modules", "tmp"]
 }
