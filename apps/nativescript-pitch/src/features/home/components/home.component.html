@@ -1,0 +1,73 @@
+<ActionBar title="RFS MIDI" class="action-bar" flat="false"> </ActionBar>
+
+<StackLayout class="m-b-10">
+  <Label text="MIDI PITCH" class="h1 tagline m-t-10"></Label>
+  <Image
+    src="https://imgur.com/pBrnaL7.png"
+    class="image h-center m-t-30 m-b-30"
+    width="60%"
+  ></Image>
+
+  <FlexboxLayout
+    class=""
+    flexDirection="row"
+    justifyContent="center"
+    alignItems="center"
+    height="10%"
+    backgroundColor="#232323"
+  >
+    <Button width="30%" class="btn btn-primary c-black" (tap)="goTo('notes')">
+      <FormattedString>
+        <Span class="btn-label" text="Notes"></Span>
+      </FormattedString>
+    </Button>
+
+    <Button width="30%" class="btn btn-primary c-black" (tap)="goTo('scales')">
+      <FormattedString>
+        <Span class="btn-label" text="Scales"></Span>
+      </FormattedString>
+    </Button>
+
+    <Button
+      width="30%"
+      class="btn btn-primary c-black"
+      (tap)="goTo('settings')"
+    >
+      <FormattedString>
+        <Span class="btn-label" text="Settings"></Span>
+      </FormattedString>
+    </Button>
+  </FlexboxLayout>
+
+  <Label
+    text="POC for Web/iOS/Android"
+    class="description m-t-20 h1 underline text-center c-white"
+  >
+  </Label>
+  <Label
+    text="• Angular for templating"
+    class="description m-t-20 h3 text-center c-white"
+  >
+  </Label>
+  <Label
+    text="• NativeScript for cross-platform"
+    class="description m-t-20 h3 text-center c-white"
+  >
+  </Label>
+  <Label
+    text="• NgRx for state management"
+    class="description m-t-20 h3 text-center c-white"
+  >
+  </Label>
+  <Label
+    text="• TailwindCSS for styling"
+    class="description m-t-20 h3 text-center c-white"
+  ></Label>
+  <Label
+    class="org m-t-10 m-t-20 h2 text-center yellow"
+    target="_blank"
+    text="• NgRx for state management"
+    text="@RabbitFighterStudios on GitHub"
+  >
+  </Label>
+</StackLayout>
